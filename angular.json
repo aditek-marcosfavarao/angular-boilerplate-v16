@@ -46,8 +46,8 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/app/common/assets/images",
+              "src/app/common/assets/svgs"
             ],
             "styles": [
               "src/app/common/styles/global-style.css"
