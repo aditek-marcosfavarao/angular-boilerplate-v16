@@ -50,7 +50,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/app/common/styles/global-style.css"
             ],
             "scripts": []
           },
