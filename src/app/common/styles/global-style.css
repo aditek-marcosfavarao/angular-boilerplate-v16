@@ -1,0 +1,51 @@
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+::-moz-selection,
+::selection {
+  background: default;
+  color: white;
+}
+
+[focus] {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
