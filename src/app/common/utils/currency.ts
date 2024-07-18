@@ -9,10 +9,10 @@ export const formatCurrency = ({
   locale,
   currency,
 }: FormatCurrency): string => {
-  const formattedCurrency = new Intl.NumberFormat(locale, {
+  const formattedAmount = new Intl.NumberFormat(locale, {
     style: 'currency',
     currency,
   }).format(amount);
 
-  return formattedCurrency;
+  return formattedAmount;
 };
