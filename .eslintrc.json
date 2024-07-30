@@ -46,7 +46,8 @@
       ],
       "rules": {
         "prettier/prettier": ["error", { "parser": "angular" }],
-        "quotes": ["error", "single"]
+        "quotes": ["error", "single"],
+        "max-len": ["error", { "code": 120 }]
       }
     }
   ]
