@@ -1,5 +1,9 @@
 {
+  "prettier.printWidth": 120,
   "eslint.format.enable": true,
+  "eslint.options": {
+    "configFile": ".eslintrc"
+  },
   "eslint.validate": [
     "typescript",
     "javascript",
@@ -7,8 +11,11 @@
     "html",
     "css"
   ],
+  "editor.wordWrapColumn": 120,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
     "source.fixAll.eslint": "explicit"
   },
   "[typescript]": {
